@@ -76,7 +76,7 @@ See: https://github.com/h5bp/server-configs-apache/blob/master/dist/.htaccess#L9
     # <IfModule mod_rewrite.c>
     #     RewriteEngine On
     #     RewriteCond %{REQUEST_FILENAME} !-f
-    #     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1.$3 [L]
+    #     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1.$3 [L,NC]
     # </IfModule>
     
 #### NGINX
